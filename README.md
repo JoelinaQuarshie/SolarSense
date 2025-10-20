@@ -188,6 +188,8 @@ Alfred Nyongesa – Data Analysis & Optimization
 
 Hannah Shekinah – Ethical Analysis & Documentation
 
+Joelina Quarshie -ML Development
+
 ## 🌟 Future Enhancements
 Real-time NASA API integration
 
