@@ -206,8 +206,6 @@ Ethical impact assessment framework
 
 
 
-Joelina Quarshie -ML Development
-
 ## 🌟 Future Enhancements
 Real-time NASA API integration
 
