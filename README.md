@@ -12,7 +12,12 @@
 
 **SolarSense AI** is a machine learning solution that predicts daily solar energy potential (kWh/m²/day) using weather data from the NASA POWER API. This project directly supports **UN Sustainable Development Goal 7: Affordable and Clean Energy** by enabling better solar resource assessment and grid integration planning.
 
+🔗 [Article](https://solarsense-ai-cmd5bvy.gamma.site/) 
+ 
+ 🔗 [Pitch Deck](https://gamma.app/docs/SolarSense-AI-c48xq90w1504r3e/)
+
 🔗 [Live Demo](https://solar-energy-predict.streamlit.app/)  
+
 🔗 [GitHub Repository](https://github.com/christinemirimba/SolarSense)
 
 ---
@@ -28,11 +33,11 @@
 
 ## 🚀 Quick Start
 
-### 🔧 Prerequisites
+## 🔧 Prerequisites
 - Python 3.8+
 - Git
 
-### ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 ```bash
 # 1. Clone the repository
 git clone https://github.com/christinemirimba/SolarSense.git
@@ -48,8 +53,9 @@ source solar_env/bin/activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-
-### ▶️ Running the Project
+```
+## ▶️ Running the Project
+```
 Option A: Run Machine Learning Model
 bash
 python solar_energy_predictor.py
@@ -64,8 +70,10 @@ Option C: Run Both (Recommended)
 bash
 python solar_energy_predictor.py
 streamlit run app.py
+```
 
 ## 📁 Project Structure
+```
 Code
 SolarSense/
 ├── solar_energy_predictor.py    # 🤖 ML model training
@@ -75,10 +83,11 @@ SolarSense/
 ├── nasa_power_solar_data.csv    # 📈 Sample dataset
 ├── README.md                    # 📖 Documentation
 └── .gitignore                   # 🔒 Git exclusions
+```
 
 ## 📊 Dataset
-Source: NASA POWER API
 
+Source: NASA POWER API
 Location: Nairobi, Kenya
 
 Period: January 2018 – December 2023
@@ -102,7 +111,7 @@ Model	MAE	RMSE	R² Score
 📈 Linear Regression	0.423	0.558	0.946
 🧠 Neural Network	0.726	0.918	0.855
 
-Feature Engineering
+## Feature Engineering
 Seasonal patterns with cyclical encoding
 
 Lag features (previous day/week solar radiation)
@@ -182,11 +191,20 @@ Interactive web interface
 Ethical impact assessment framework
 
 ## 👥 Team
-Christine Mirimba – ML Development
 
-Alfred Nyongesa – Data Analysis & Optimization
+**Christine Mirimba** – Machine Learning Engineer  
+📧 [`Let's Build 🚀`](mailto:mirimbachristine@gmail.com)
 
-Hannah Shekinah – Ethical Analysis & Documentation
+**Alfred Nyongesa** – Data Analyst & System Optimization  
+📧 [`Let's Optimize ⚙️`](mailto:alfred.dev8@gmail.com)
+
+**Hannah Shekinah** – AI Ethics & Sustainability Specialist  
+📧 [`Let's Innovate 🌍`](mailto:hannahshekinah@gmail.com)
+
+**Joelina Quarshie** – Technical Writer & Research Coordinator  
+📧 [`Let's Document 📝`](mailto:joelinakq@gmail.com)
+
+
 
 Joelina Quarshie -ML Development
 
@@ -213,11 +231,13 @@ Scikit-learn & TensorFlow communities
 
 Streamlit for web app support
 
-## 🔗 Links
-🔗 GitHub Repository
+##  🔗 Links
+🔗 [Live Demo](https://solar-energy-predict.streamlit.app/)  
 
-🔗 Live Demo
+🔗 [GitHub Repository](https://github.com/christinemirimba/SolarSense)
 
-🔗 NASA POWER API
+🔗 [NASA POWER API] (https://power.larc.nasa.gov/docs/services/api/)
 
-## <div align="center"> ✨ "Empowering sustainable energy transitions through machine learning" ☀️ Supporting UN Sustainable Development Goal 7: Affordable and Clean Energy ⭐ Star this repository if you find it helpful! </div>
+##  ✨ "Empowering sustainable energy transitions through machine learning" ☀️ Supporting UN Sustainable Development Goal 7: Affordable and Clean Energy ⭐ Star this repository if you find it helpful! 
+
+
